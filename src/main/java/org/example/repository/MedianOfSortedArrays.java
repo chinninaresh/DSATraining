@@ -2,6 +2,8 @@ package org.example.repository;
 
 public class MedianOfSortedArrays {
 
+
+
     public static void main(String[] args) {
 
         int[] arr1 = {2,5};
