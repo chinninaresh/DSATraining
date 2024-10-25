@@ -16,7 +16,10 @@ public class SupremeSquare {
     // Complete the below method
     public static int CalcSupremeSquareVal(String value) {
 
-        int sum = value.chars().map(Character::getNumericValue).map(digit -> digit*digit).sum();
+        int sum = value.chars()
+                .map(Character::getNumericValue)
+                .map(digit -> digit*digit)
+                .sum();
         while(sum > 9){
             sum=String.valueOf(sum).chars().map(Character::getNumericValue).sum();
 
