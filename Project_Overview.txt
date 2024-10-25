@@ -1,0 +1,50 @@
+
+Overview of Prev Project:
+++++++++++++++++++++++++++
+
+IRP (IQVIA Registry Platform):
+	This is a Registry Platform aimed at assisting patients with medical inquiries, appointment scheduling, and health monitoring. 
+The project involved ensuring accuracy, reliability, and compliance with healthcare standards. 
+The purpose of thus project is to Import data files and migrating the product related data from spreadsheets to internal database using functional mapping
+and configuration changes. The project was to build an application to manage and maintain all the patient records and related info in degital format.
+Patients are able to schedule their appointment with physician through portal or offline as their respective.
+
+Roles & Resposiblities:
+++++++++++++++++++++++++
+
+	* Developing the applications/services based on business requirments, Doing Unit Testing after completing the development.
+	* We followd by AGILE Methodology, we used to handle cutomers raised tickets with reporting and resolving new bugs base on 
+	  customer's feedback in JIRA.
+
+Technical Architecture:
+++++++++++++++++++++++++
+
+Frontend: HTML, CSS,JS, React
+Backend: Core Java, Spring, Spring Boot, JPA and databases MySQL
+
+It is a web application, where we use React node js with HTML, CSS and javascript for validation.
+Middleware framework we use Spring Boot Maven project and default server tomcat used on developing, and also for backend interaction Hibernate nad JPA use.
+Backend technology MySQL database used.
+For unit testing, JUnit and for testing the request and response POSTMAN tool used.
+
+Q) What is the Challenge you faced and how did you get sorted out?
+
+Interoperability with External Systems:
+Challenge: Integrating the platform with external healthcare systems for seamless data exchange posed technical challenges.
+
+Solution:
+Utilized standardized protocols such as HL7 and FHIR for healthcare data exchange, ensuring compatibility with external systems.
+Built a modular architecture that allowed for easier integration with third-party applications and services.
+Conducted extensive testing with external systems to resolve any communication issues early on.
+
+Continuous Compliance Monitoring:
+Challenge: Maintaining ongoing compliance with healthcare regulations as new updates and changes emerged was a constant concern.
+
+Solution:
+
+Established a compliance team responsible for staying up-to-date with regulatory changes and assessing their impact on the system.
+Integrated compliance checks into the development process, ensuring that new features adhered to regulations before deployment.
+Scheduled regular audits and assessments to identify any compliance gaps and address them promptly.
+By proactively addressing these challenges, the project was able to create a secure, reliable, 
+and user-friendly platform that effectively supported patients and healthcare providers.
+
